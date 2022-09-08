@@ -234,9 +234,14 @@ ul {
   margin-left: 268px;
   border: 1.5px solid black;
   box-sizing: border-box;
-
+  cursor: pointer;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.firstBox:checked {
+  background-color: black;
+  border: 1.5px solid black;
 }
 
 .secondBox {
@@ -253,6 +258,11 @@ ul {
   margin-left: 8px;
 }
 
+.secondBox:checked {
+  background-color: black;
+  border: 1.5px solid black;
+}
+
 .thirdBox {
   width: 12px;
   height: 12px;
@@ -267,7 +277,13 @@ ul {
   margin-left: 8px;
 }
 
+.thirdBox:checked {
+  background-color: black;
+  border: 1.5px solid black;
+}
+
 .forthBox {
+  cursor: pointer;
   width: 12px;
   height: 12px;
   background-color: #a6cc99;
@@ -281,6 +297,11 @@ ul {
   margin-left: 8px;
 }
 
+.forthBox:checked {
+  background-color: black;
+  border: 1.5px solid black;
+}
+
 .secondImageFirstBox {
   width: 10px;
   height: 10px;
@@ -291,6 +312,12 @@ ul {
   vertical-align: middle;
   appearance: none;
   -webkit-appearance: none;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+
+.secondImageFirstBox:checked {
+  background-color: black;
   border: 1.5px solid black;
 }
 
