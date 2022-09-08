@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Avenir";
+  src: url(fonts/Avenir.ttc);
+}
+
+@font-face {
+  font-family: "ITC-Bk";
+  src: url(fonts/ITCAvantGardePro-Bk.otf);
+}
+
+@font-face {
+  font-family: "ITC-Bold";
+  src: url(fonts/ITCAvantGardePro-Bold.otf);
+}
+
+@font-face {
+  font-family: "ITC-Demi";
+  src: url(fonts/ITCAvantGardePro-Demi.otf);
+}
+
+@font-face {
+  font-family: "ITC-Md";
+  src: url(fonts/ITCAvantGardePro-Md.otf);
+}
+
+h1 {
+  font-family: "Avenir", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.mainContainer {
+  width: 1440px;
+  height: 864px;
+
+  /* Background / White */
+
+  background: #ffffff;
+  display: flex;
+}
+
+.sectionLeft {
+  width: 720px;
+  height: 864px;
+  display: flex;
+}
+
+.sectionRight {
+  height: 864px;
+  width: 720px;
+
+  /* Background / White */
+
+  background: #ffffff;
+}
+
+.title {
+  margin: 96px 106px 12px 120px;
+  width: 494px;
+  height: 123px;
+  color: #000000;
+  font-size: 31.25px;
+  font-weight: 700;
+  font-family: "ITC-Bold";
+  line-height: 40.62px;
+}
+
+.explanation {
+  margin: 12px 168px 32px 120px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: "Avenir";
+}
+
+.linkBtn {
+  font-family: "Avenir";
+  margin: 32px 454px 5px 120px;
+  font-weight: 900;
+  font-size: 12.8px;
+  line-height: 17.48px;
+  width: 146px;
+  height: 17px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.underLine {
+  width: 146px;
+  margin: 5px 454px 68px 120px;
+  background-color: #000000;
+  height: 1px;
+}
+
+.carouselContainer {
+  width: 906px;
+  height: 363px;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.firstImage {
+  margin: 0px 32px 12px 120px;
+  width: 230px;
+  height: 310px;
+}
+
+.otherImages {
+  margin: 0px 32px 12px 32px;
+  width: 230px;
+  height: 310px;
+}
+
+.firstImageName {
+  width: 230px;
+  height: 20px;
+  margin: 0 32px 4px 120px;
+  background-color: #ffffff;
+  font-family: "Avenir";
+  font-size: 12.8px;
+  line-height: 20.48px;
+  font-weight: 400;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.otherImageNames {
+  width: 230px;
+  height: 20px;
+  margin: 0 32px 4px 32px;
+  background-color: #ffffff;
+  font-family: "Avenir";
+  font-size: 12.8px;
+  line-height: 20.48px;
+  font-weight: 400;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.firstPrice {
+  margin: 0 119px 92px 120px;
+  position: absolute;
+
+  /* Body/Body Bold Mobile */
+
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 20.48px;
+
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Typography/Primary */
+
+  color: #000000;
+
+  width: 40px;
+  height: 20px;
+  display: flex;
+}
+
+.otherPrices {
+  margin: 0 119px 92px 32px;
+  position: absolute;
+
+  /* Body/Body Bold Mobile */
+
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 20.48px;
+
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Typography/Primary */
+
+  color: #000000;
+
+  width: 40px;
+  height: 20px;
+}
+
+.firstBox {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 268px;
+  border: 1.5px solid black;
+  box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.secondBox {
+  width: 12px;
+  height: 12px;
+  background-color: #cc9999;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.thirdBox {
+  width: 12px;
+  height: 12px;
+  background-color: #cb99cc;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.forthBox {
+  width: 12px;
+  height: 12px;
+  background-color: #a6cc99;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.secondImageFirstBox {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 180px;
+  border-radius: 50%;
+  vertical-align: middle;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1.5px solid black;
+}
+
+.arrow {
+  position: absolute;
+  left: 28.12%;
+  right: 28.12%;
+  top: 9.38%;
+  bottom: 9.38%;
+
+  /* Background/Dark */
+  height: 40px;
+  width: 40px;
+  left: 4.5px;
+  top: 1.5px;
+  border-radius: 0px;
+  border: 1.5px solid rgb(209, 199, 199);
+  padding: 12px;
+
+  margin: 140px 10px 296px 690px;
+}
